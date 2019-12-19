@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "an application which helps you finding friends based on your personality.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhamposhtiban/friendfinder.git"
+  },
+  "author": "elham poshtiban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elhamposhtiban/friendfinder/issues"
+  },
+  "homepage": "https://github.com/elhamposhtiban/friendfinder#readme"
+}
