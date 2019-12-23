@@ -233,22 +233,22 @@
 
 $("#submit-survey").on("click",function (event) {
 
-    event.preventDefault();
+event.preventDefault();
 
- let profileName = $("#fullName").val().trim();
- let profileImage = $("#profile-image").val().trim();
- let scoresArray = [] ;
+let profileName = $("#fullName").val().trim();
+let profileImage = $("#profile-image").val().trim();
+let scoresArray = [] ;
 
-const q1 = $("#q1").val();
-const q2 = $("#q2").val();
-const q3 = $("#q3").val();
-const q4 = $("#q4").val();
-const q5 = $("#q5").val();
-const q6 = $("#q6").val();
-const q7 = $("#q7").val();
-const q8 = $("#q8").val();
-const q9 = $("#q9").val();
-const q10 = $("#q10").val();
+const q1 = parseInt($("#q1").val());
+const q2 = parseInt($("#q2").val());
+const q3 = parseInt($("#q3").val());
+const q4 = parseInt($("#q4").val());
+const q5 = parseInt($("#q5").val());
+const q6 = parseInt($("#q6").val());
+const q7 = parseInt($("#q7").val());
+const q8 = parseInt($("#q8").val());
+const q9 = parseInt($("#q9").val());
+const q10 = parseInt($("#q10").val());
 
 scoresArray.push(q1,q2,q3,q4,q5,q6,q7,q8,q9,q10)
 
@@ -260,6 +260,8 @@ console.log(scoresArray)
     photo:profileImage,
     scores:scoresArray
   }
+
+  console.log(profile)
 
 $.post("/api/friends", profile,
 function (data){
