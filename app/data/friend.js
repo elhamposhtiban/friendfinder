@@ -20,4 +20,4 @@
   }
 ];
 
-module.exports(newfriendsArray)
+module.exports = newfriendsArray
