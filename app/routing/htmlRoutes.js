@@ -2,8 +2,7 @@
 
 const path = require("path");
 
-
-
+// here we matching our route as default for page 
 module.exports = function(app) {
 
   
