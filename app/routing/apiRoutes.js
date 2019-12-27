@@ -13,14 +13,14 @@ app.post("/api/friends", function(req, res) {
 
      const bestMatch = {
         name: "",
-        img: "",
+        photo: "",
         difference: 20
 
         };
 
 
         let newFriend = req.body;
-	    let newImg = req.body.newImg;
+	    let newphoto = req.body.newphoto;
 	    let newName = req.body.newName;
 	    let newScores = req.body.scores;
 
@@ -38,7 +38,7 @@ app.post("/api/friends", function(req, res) {
 
         if (totalDiff < bestMatch.difference) {
             bestMatch.name = friendData[i].name;
-            bestMatch.img = friendData[i].photo;
+            bestMatch.photo = friendData[i].photo;
             bestMatch.difference = totalDiff;
             console.log("bestMatch.name: " + bestMatch.name);
             console.log("bestMatch.difference: " + bestMatch.difference);
@@ -48,7 +48,7 @@ app.post("/api/friends", function(req, res) {
        }
 
        console.log("bestMatch: " + bestMatch.name);
-       console.log("bestMatch.img: " + bestMatch.img);
+       console.log("bestMatch.photo: " + bestMatch.photo);
 
     }
     

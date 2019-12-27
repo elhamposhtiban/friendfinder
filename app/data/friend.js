@@ -1,12 +1,14 @@
 
 
+// 
+
  const newfriendsArray = [ 
      
     {
-    name:"daniel",
-    photo:"https://api.time.com/wp-content/uploads/2017/12/terry-crews-person-of-year-2017-time-magazine-2.jpg?w=800&quality=85",
+    name:"Daniel",
+    photo:"https://i.pinimg.com/236x/9e/1d/3c/9e1d3c4f1bf8518b85dca303e67dd9a8--man-photography-photo-shoots.jpg",
     scores:[
-        5,
+        3,
         1,
         4,
         4,
@@ -19,10 +21,10 @@
       ]
   },
   {
-    name:"elham",
-    photo:"https://cdn2.lamag.com/wp-content/uploads/sites/6/2019/06/keanu-reeves-person-of-the-year-karwai-tang-getty-1068x717.jpg",
+    name:"Elham",
+    photo:"https://static.boredpanda.com/blog/wp-content/uploads/2016/01/woman-beauty-atlas-mihaela-noroc-217__880.jpg",
     scores:[
-        1,
+        5,
         3,
         5,
         4,
@@ -31,6 +33,86 @@
         4,
         1,
         2,
+        3
+      ]
+  },
+  {
+    name:"Navid",
+    photo:"https://i.pinimg.com/originals/1e/7f/42/1e7f423bad629a9cbdb52eb8244a36e8.jpg",
+    scores:[
+        4,
+        2,
+        2,
+        5,
+        1,
+        5,
+        4,
+        5,
+        4,
+        5
+      ]
+  },
+  {
+    name:"Sarah",
+    photo:"https://static.boredpanda.com/blog/wp-content/uploads/2016/01/woman-beauty-atlas-mihaela-noroc-236__880.jpg",
+    scores:[
+        2,
+        5,
+        5,
+        4,
+        1,
+        5,
+        3,
+        4,
+        5,
+        2
+      ]
+  },
+  {
+    name:"John",
+    photo:"https://i.pinimg.com/originals/4c/21/a2/4c21a25c8884c763d7bb19e684ebc585.jpg",
+    scores:[
+        1,
+        5,
+        3,
+        4,
+        2,
+        5,
+        4,
+        2,
+        5,
+        5
+      ]
+  },
+  {
+    name:"Lisa",
+    photo:"https://static.boredpanda.com/blog/wp-content/uploads/2016/01/woman-beauty-atlas-mihaela-noroc-311__880.jpg",
+    scores:[
+        5,
+        1,
+        2,
+        4,
+        3,
+        2,
+        5,
+        4,
+        3,
+        3
+      ]
+  },
+  {
+    name:"Emma",
+    photo:"https://static.boredpanda.com/blog/wp-content/uploads/2016/01/woman-beauty-atlas-mihaela-noroc-362__880.jpg",
+    scores:[
+        5,
+        3,
+        5,
+        5,
+        4,
+        3,
+        5,
+        4,
+        5,
         3
       ]
   }
