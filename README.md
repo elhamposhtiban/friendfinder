@@ -1,9 +1,16 @@
-# friendfinder
+# friend finder
 
-Friend Finder is an app that will help you to find friends. it will suggest you best match based on your personality because here we have a survey ! 
+Friend Finder is dating application. A full-stack site will take in results from users' surveys, then compare their answers with those from other users.
+
+## Getting started 
+Click the deployed link below to use the application on the Heroku server.
 
 ## Repository Link
 [link](https://aqueous-refuge-62143.herokuapp.com/) 
+
+## Animated Gifs/Pictures of App
+
+![Application](/public/friend.gif)
  
 
 
