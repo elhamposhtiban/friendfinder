@@ -10,7 +10,7 @@ Click the deployed link below to use the application on the Heroku server.
 
 ## Animated Gifs/Pictures of App
 
-![Application](/public/friend.gif)
+![Application](/app/public/friend.gif)
  
 
 
